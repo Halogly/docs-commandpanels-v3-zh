@@ -1,0 +1,85 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #2f5e86; /* darker blue */
+    --ifm-color-primary-dark: #275371;
+    --ifm-color-primary-darker: #234c67;
+    --ifm-color-primary-darkest: #1f4359;
+    --ifm-color-primary-light: #3c6f9e;
+    --ifm-color-primary-lighter: #4a82b6;
+    --ifm-color-primary-lightest: #6b9fce;
+
+    --ifm-color-accent: #b89f2d; /* darker yellow */
+
+    --ifm-background-color: #ffffff;
+    --ifm-font-color-base: #1e2126;
+    --ifm-heading-color: #1e2126;
+
+    --ifm-code-font-size: 95%;
+    --ifm-code-background: #fff7db; /* subtle yellow for inline code */
+    --ifm-link-hover-color: var(--ifm-color-accent);
+
+    --docusaurus-highlighted-code-line-bg: rgba(80, 210, 253, 0.2);
+}
+
+[data-theme='dark'] {
+    --ifm-color-primary: #53a9dc;
+    --ifm-color-primary-dark: #4695c1;
+    --ifm-color-primary-darker: #3f88b3;
+    --ifm-color-primary-darkest: #377aa1;
+    --ifm-color-primary-light: #66b1e1;
+    --ifm-color-primary-lighter: #7abde7;
+    --ifm-color-primary-lightest: #a5d5f0;
+
+    --ifm-color-accent: #fdde50;
+
+    --ifm-background-color: #1e2126;
+    --ifm-navbar-background-color: #282c35;
+    --ifm-font-color-base: #cacaca;
+    --ifm-heading-color: #ffffff;
+
+    --ifm-code-background: #282c35;
+    --ifm-link-hover-color: var(--ifm-color-accent);
+    --docusaurus-highlighted-code-line-bg: rgba(80, 210, 253, 0.2);
+}
+
+/* Optional: highlight active nav link or sidebar item */
+.menu__link--active {
+    color: var(--ifm-color-accent);
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    color: var(--ifm-color-primary);
+}
+
+/* Active navbar link */
+.navbar__link {
+    color: var(--ifm-font-color-base);
+    font-weight: bold;
+}
+
+/* Hover navbar link */
+.navbar__link:hover {
+    color: var(--ifm-color-primary);
+}
+
+code {
+    font-family: Consolas, sans-serif;
+}
+
+.footer {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+/* Allows for "sidebar_class_name: hidden" to be used at the top of md files to hide from sidebar */
+.hidden {
+    display: none !important;
+}
