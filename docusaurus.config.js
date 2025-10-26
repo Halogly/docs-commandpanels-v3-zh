@@ -59,7 +59,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: `<a href="https://commandpanels.net" class="navbar__item" style="font-weight: bold;">返回首页</a>`,
+            value: `<a href="https://v3.commandpanels.net" target="_blank" class="navbar__item" style="font-weight: bold;">返回首页</a>`,
           }
         ],
       },
