@@ -91,9 +91,13 @@ const config = {
       },
       footer: {
         copyright: `
-          Copyright © ${new Date().getFullYear()} Halogly - CommandPanels
-          <div style="font-size: 0.9em; opacity: 0.8;">
-            本文档为社区翻译版，非官方文档
+          Copyright © 2019-${new Date().getFullYear()} CommandPanels - Halogly
+          <div>
+            如遇到问题，可前往<a href="https://github.com/Halogly/docs-commandpanels-v3-zh/issues" target="_blank"
+            style="text-decoration: none;
+            border-bottom: solid #53A9DC;
+            font-weight: bold;">Github</a>反馈
+            <p style="font-size: 0.9em; opacity: 0.8; margin: 10px 0;">本文档为社区翻译版，非官方文档</p>
           </div>
         `,
       },
