@@ -30,8 +30,8 @@ const config = {
       ({
         sitemap: {
           lastmod: 'date',
-          changefreq: 'daily',
-          priority: 0.5,
+          changefreq: null,
+          priority: null,
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
