@@ -50,6 +50,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: '命令面板,CommandPanels,我的世界,Minecraft,插件,文档,教程,配置指南'},
+        {name: 'description', content: 'CommandPanels 命令面板文档 - 完整的配置指南和使用教程，学习如何创建自定义菜单界面和交互命令'},
+        {property: 'og:type', content: 'website'},
+        {property: 'og:title', content: 'CommandPanels 命令面板文档'},
+        {property: 'og:description', content: 'CommandPanels 命令面板官方文档 - 完整的配置指南和使用教程'},
+        {property: 'og:image', content: 'https://commandpanels-v4.halogly.com/logo.png'},
+      ],
       navbar: {
         logo: {
           alt: 'CommandPanels Logo',
