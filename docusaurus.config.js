@@ -28,9 +28,17 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         blog: false,
         pages: false,
@@ -56,7 +64,7 @@ const config = {
         {property: 'og:type', content: 'website'},
         {property: 'og:title', content: 'CommandPanels 命令面板文档'},
         {property: 'og:description', content: 'CommandPanels 命令面板官方文档 - 完整的配置指南和使用教程'},
-        {property: 'og:image', content: 'https://commandpanels-v4.halogly.com/logo.png'},
+        {property: 'og:image', content: 'https://commandpanels-v3.halogly.com/logo.png'},
       ],
       navbar: {
         logo: {
