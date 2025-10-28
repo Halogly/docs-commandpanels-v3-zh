@@ -87,7 +87,7 @@ const config = {
         copyright: `
           Copyright © 2019-${new Date().getFullYear()} CommandPanels - Halogly
           <div>
-            如遇到问题，可前往<a href="https://github.com/Halogly/docs-commandpanels-v3-zh/issues" target="_blank"
+            如有疑问及建议，可前往<a href="https://github.com/Halogly/docs-commandpanels-v3-zh/issues" target="_blank"
             style="text-decoration: none;
             border-bottom: solid #53A9DC;
             font-weight: bold;">Github</a>反馈
