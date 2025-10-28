@@ -26,7 +26,7 @@
 | `stopsound=`                 | 点击物品时停止播放声音。`stopsound= [音效名称]`。                                                                                                                                                         |
 | `teleport=`                  | 传送玩家。用法：`teleport= [x] [y] [z]`。可添加其他选项：`teleport= 34 67 234 world:the_nether yaw:0`。可选参数：`world:<世界>`、`player:<玩家名称>`、`yaw:<数值>`、`pitch:<数值>`。                                          |
 | `send=`                      | 以玩家身份在聊天中全局发送消息。用法：`send= [消息]`。                                                                                                                                                         |
-| (1.13+)<br/>`minimessage=`   | 使用**PaperMiniMessageAPI**，用法：`minimessage= <文本>`。                                                                                                                                        |
+| (1.13+)<br/>`minimessage=`   | 使用**Paper**的**MiniMessageAPI**，用法：`minimessage= <文本>`。                                                                                                                                   |
 | `msg=`                       | 向执行命令的玩家发送消息。                                                                                                                                                                            |
 | `title=`                     | 在玩家屏幕上显示标题。如需副标题，在标题内容中间插入`\n`分隔：`title= [玩家] [淡入时间] [停留时间] [淡时间出] [标题内容]`。                                                                                                              |
 | `op=`                        | 置于命令前使玩家能够无条件执行所有命令。使用时需谨慎，这会在执行命令时临时授予玩家管理员权限。                                                                                                                                          |
